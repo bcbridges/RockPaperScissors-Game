@@ -5,4 +5,71 @@
   --orange: rgb(225, 92, 32);
   --brown: rgb(139, 41, 30);
   --black: rgb(46, 16, 14);
+  --gray: rgb(196, 196, 196);
+}
+
+* {
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: var(--beige);
+  width: 98vw;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  outline: 2vw solid var(--black);
+  position: absolute;
+  left: 1vw;
+  top: 0.9vw;
+}
+
+body section {
+  width: 90vw;
+  height: 40vh;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-section div {
+  width: 28vw;
+  height: 40vh;
+  background-color: var(--black);
+  outline: 1vw solid var(--gray);
+}
+
+.top-section h1 {
+  width: 24vw;
+  height: 40vh;
+  margin: 0;
+  font-size: 3vw;
+  text-align: center;
+  color: var(--black);
+  transform: rotate(30deg);
+  position: relative;
+  left: -2vw;
+  top: 2vw;
+  text-shadow: 0.2vw 0.2vw var(--khaki);
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-section div {
+  width: 30vw;
+  height: 40vh;
+  background-color: black;
+}
+
+.bottom-section div.score-section {
+  width: 24vw;
+  height: 40vh;
+  background-color: black;
 }
